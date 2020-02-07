@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/haber_detay_alt_bar"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <WebView
+            android:id="@+id/haberDetayWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </WebView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/haber_detay_alt_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="fill_horizontal"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="3dp" >
+
+            <ImageView
+                android:id="@+id/share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="5dp"
+                android:src="@drawable/share" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" >
+
+            <ImageView
+                android:id="@+id/yazi_kucult_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="5dp"
+                android:src="@drawable/yazikucult" />
+
+            <ImageView
+                android:id="@+id/yazi_buyut_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/yazi_kucult_button"
+                android:src="@drawable/yazibuyut" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

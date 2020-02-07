@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Haber Uygulaması</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="loading">Yükleniyor&#8230;</string>
+    <string name="no_more_result_found">Daha fazla haber bulunmamaktadır</string>
+    <string name="load_more">Devamını Göster</string>
+    <string name="no_connection">Bu uygulama internet bağlantısı gerektirmektedir. İnternet bağlantınızı kontrol edip tekrar deneyiniz.</string>
+    <string name="try_again">Tekrar Dene</string>
+    <string name="quit_app">Uygulamadan Çık</string>
+    <string name="press_back_twice_to_exit">Uygulamadan çıkmak için bir kez daha geri butonuna basınız</string>
+    <string name="no_more_photos">Bu galeride daha fazla resim bulunmamaktadır</string>
+    <string name="no_more_video">Bu galeride daha fazla video bulunmamaktadır</string>
+    <string name="no_more_archive">Daha fazla program bulunmamaktadır</string>
+    <string name="send_comment">YORUMU GÖNDER</string>
+    <string name="send_comment_hint">Yorumunuz</string>
+    <string name="make_comment">Yorum Yap</string>
+    <string name="hint_search">Haber arama&#8230;</string>
+    <string name="cannot">Bir sorun oluştu</string>
+    <string name="yan_video">VİDEO</string>
+    <string name="yan_fotograflar">FOTOĞRAFLAR</string>
+	<string name="cat_teknoloji_tv">TEKNOLOJİ TV</string>
+	<string name="cat_foto_galeri">FOTO GALERİ</string>
+	<string name="cat_anasayfa">ANASAYFA</string>
+</resources>

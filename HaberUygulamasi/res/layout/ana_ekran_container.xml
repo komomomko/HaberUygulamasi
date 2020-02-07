@@ -1,0 +1,7 @@
+<com.slidingmenu.lib.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sliding="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/blahblah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    sliding:behindOffset="60dp"
+    sliding:behindScrollScale="0" />
